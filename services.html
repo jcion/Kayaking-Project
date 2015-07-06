@@ -50,8 +50,16 @@
                 <li>
                     <a href="about.html">About</a>
                 </li>
-                <li class="active">
-                    <a href="services.html">Programs</a>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="registration.html">Registration</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="contact.html">Contact</a>
@@ -117,39 +125,52 @@
     <!-- /.container -->
 </nav>
 
-<!-- Page Content -->
-<div class="container">
+<!-- Header Carousel -->
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<!-- Page Heading/Breadcrumbs -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Programs
-            <small>Subheading</small>
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="index.html">Home</a>
-            </li>
-            <li class="active">Services</li>
-        </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 1</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 2</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            <div class="carousel-caption">
+                <h2>Caption 3</h2>
+            </div>
+        </div>
     </div>
-</div>
-<!-- /.row -->
 
-<!-- Image Header -->
-<div class="row">
-    <div class="col-lg-12">
-        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
-    </div>
-</div>
-<!-- /.row -->
-
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
 <!-- Service Panels -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">More Info</h2>
+        <h2 class="page-header">Programs (this should be ctr aligned)</h2>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                         <span class="fa-stack fa-5x">
@@ -158,13 +179,13 @@
                         </span>
             </div>
             <div class="panel-body">
-                <h4>Service One</h4>
+                <h4>CanoeKids/CanoeKids+ Camp</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                         <span class="fa-stack fa-5x">
@@ -173,13 +194,13 @@
                         </span>
             </div>
             <div class="panel-body">
-                <h4>Service Two</h4>
+                <h4>BC Cup Program</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                         <span class="fa-stack fa-5x">
@@ -188,193 +209,216 @@
                         </span>
             </div>
             <div class="panel-body">
-                <h4>Service Three</h4>
+                <h4>Youth Sprint Racing Program</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+
+</div>
+
+<!-- Second row of programs -->
+
+<div class="row">
+
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                         </span>
             </div>
             <div class="panel-body">
-                <h4>Service Four</h4>
+                <h4>Beginner Adults Paddling (16+)</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
-</div>
-
-<!-- Service Tabs -->
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">Service Tabs</h2>
-    </div>
-    <div class="col-lg-12">
-
-        <ul id="myTab" class="nav nav-tabs nav-justified">
-            <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-tree"></i> Service One</a>
-            </li>
-            <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-car"></i> Service Two</a>
-            </li>
-            <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Service Three</a>
-            </li>
-            <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Service Four</a>
-            </li>
-        </ul>
-
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade active in" id="service-one">
-                <h4>Service One</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+    <div class="col-md-4 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
             </div>
-            <div class="tab-pane fade" id="service-two">
-                <h4>Service Two</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-            </div>
-            <div class="tab-pane fade" id="service-three">
-                <h4>Service Three</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-            </div>
-            <div class="tab-pane fade" id="service-four">
-                <h4>Service Four</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+            <div class="panel-body">
+                <h4>Masters Racing Program (16+)</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
-
     </div>
+    <div class="col-md-4 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                        <span class="fa-stack fa-5x">
+                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                        </span>
+            </div>
+            <div class="panel-body">
+                <h4>Dragonboat Programs</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
 </div>
+
 
 <!-- Service List -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">Service List</h2>
+        <h2 class="page-header">Program List</h2>
     </div>
     <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
         <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
+
             <div class="media-body">
-                <h4 class="media-heading">Service One</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                <h4 class="media-heading">CanoeKids/CanoeKids+ Camp</h4>
+                <p>BCKC CanoeKids program is a week long day camp experience focused on all aspects of safe paddle sports. Campers ages 8 to 12 years old will be introduced to canoeing, kayaking, dragon boating, water safety, as well as cooperative games and activities.
+
+                    Throughout the week the young athletes will explore the beautiful nature at Burnaby lake with qualified instructors in multiple disciplines, learning the basics of boating safety and developing their paddling skills!
+
+                    Along with their peers, the campers will have a great time challenging their own abilities while developing self-confidence and team-work skills.
+
+                    Campers will learn the fundamentals of paddling through a progressive learning approach. At the completion of the week, campers will be able to use the skills acquired during camp by continuing with additional weeks at the camp and/or join other club programs will build upon these skills to reach higher levels of skill development.</p>
             </div>
         </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-car fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Two</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-support fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Three</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
     </div>
     <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
         <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-database fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
+
             <div class="media-body">
-                <h4 class="media-heading">Service Four</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                <h4 class="media-heading">BC Cup Program</h4>
+                <p>Participants who are looking to further experience racing are encouraged to join the BC Cup Program. The Program will consist of 3 sessions/week during the summer and will end with participation in an introductory Kayak Regatta (Burnaby, Nanaimo, Pitt Meadows, Maple Ridge).
+                    As a bonus, all BC Cup Programs will also include entry into the PacificCup Championships at the end of September.</p>
             </div>
         </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Five</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-bank fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Six</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
     </div>
     <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
         <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
+
             <div class="media-body">
-                <h4 class="media-heading">Service Seven</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Eight</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
-            </div>
-        </div>
-        <div class="media">
-            <div class="pull-left">
-                        <span class="fa-stack fa-2x">
-                              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                              <i class="fa fa-recycle fa-stack-1x fa-inverse"></i>
-                        </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Service Nine</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                <h4 class="media-heading">Youth Sprint Racing Program</h4>
+                <p>The Beginner Canoe/Kayak Racing program provides an introduction to the sport of canoe and kayak. BCKC wants to promote this unique sport, which is fun and develops strength, endurance and balance in a natural outdoor environment. This entry-level program is geared to introduce participants to the sport and the equipment. BCKC provides the participants with stable boats, with the opportunity to advance to more challenging boats when they are ready. This program encourages water safety, skill development, care and maintenance of the equipment, a team atmosphere and an all around good time. The youth will be taught this Olympic sport by a nationally certified coach.
+                    The athletes involved with this program have the opportunity to race for BCKC in various regattas in the Fraser Valley.</p>
             </div>
         </div>
     </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+        <div class="media">
+
+            <div class="media-body">
+                <h4 class="media-heading">Beginner Adults Paddling (16+)</h4>
+                <p>Introduction to Kayaking and Canoeing is the first step to sprint kayaking or canoeing.
+                    The BCKC introduction to kayaking and canoeing helps teach the basics and the skills needed to get comfortable in the boats and on the water. You will learn the basics of paddling efficiently. Athletes may graduate into the more advanced program, Adult sprint and technique program at the discretion of the program coach.
+                    Suitable for:
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+        <div class="media">
+
+            <div class="media-body">
+                <h4 class="media-heading">Masters Racing Program (16+)</h4>
+                <p>The Masters Racing program is for intermediate to advanced paddlers, suitable to those interested in flatwater and open water paddling. Our coaches will work with you to improve your paddling technique for whatever your personal goals. This includes racers who want to learn to paddle faster and inexperienced paddlers who want to learn to paddle well, as part of a healthy lifestyle.
+
+                    The technique development program provides coaching with the sole focus of the sessions being for the coach to analyze your technique and to provide feedback on how to help you paddle better.
+                    Sessions are held every week throughout the year. Winter sessions are drop-in style only. Participants can attend as many or as few of the sessions as they like. The idea is for the coach to provide the paddler with some technique improvement strategies to work on between sessions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+        <div class="media">
+
+            <div class="media-body">
+                <h4 class="media-heading">School Dragonboat Program</h4>
+                <p>Students are taught how to paddle a dragon boat by a Nationally Certified coach. The program wraps up with the Annual BC School Dragon Boat Championships, where the schools that participated in the program race against other teams. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+        <div class="media">
+
+            <div class="media-body">
+                <h4 class="media-heading">Adult Dragonboat Program</h4>
+                <p>If you want to learn how to paddle a dragon boat in a safe, fun and friendly environment, BCKC's adult dragonboat program is right for you.The participants can race for BCKC in various regattas around the province. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://www.norfolk-canoes.co.uk/kayaks-for-sale/images/dagger/dagger-approach-crossover-kayak-xl.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+        <div class="media">
+
+            <div class="media-body">
+                <h4 class="media-heading">Women's Dragonboat Program</h4>
+                <p>text here </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <h2 class="page-header"></h2>
+    </div>
+
 </div>
 <!-- /.row -->
 
