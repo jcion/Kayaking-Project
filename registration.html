@@ -9,7 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Course Registration</title>
+
+    <!--Favicon.ico-->
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +30,96 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+    function validateForm() {
+    if(document.getElementById("club").value == "" || document.getElementById("club").value == "choose")
+    {
+    alert("Please select a Club Membership Type"); // prompt user
+    document.getElementById("club").focus(); //set focus back to control
+    return false;
+    }
+    if(document.getElementById("ins").value == "" || document.getElementById("ins").value == "choose")
+    {
+    alert("Please select a valid Member Services Type"); // prompt user
+    document.getElementById("ins").focus(); //set focus back to control
+    return false;
+    }
+    if(document.getElementById("regprogram").value == "" || document.getElementById("regprogram").value == "choose")
+    {
+    alert("Please select a valid Program"); // prompt user
+    document.getElementById("regprogram").focus(); //set focus back to control
+    return false;
+    }
+    if(document.getElementById("regprogram").value != "choose" && ( document.getElementById("pkg").value == "" || document.getElementById("pkg").value == "choose") )
+    {
+    alert("Please select a valid Practice Package"); // prompt user
+    document.getElementById("pkg").focus(); //set focus back to control
+    return false;
+    }
+    }
+
+    function disable () {
+    var select0 = document.getElementById('club');
+    if ( select0.value != "fam") {
+    document.getElementById("addyouth").disabled=true;
+    document.getElementById("addyouth").style.color="gray";
+    } else {
+    document.getElementById("addyouth").disabled=false;
+    document.getElementById("addyouth").style.color="black";
+    }
+
+    }
+    function disable2() {
+    var select0 = document.getElementById('prog');
+    if ( select0.value == "progyes") {
+    document.getElementById("ins").disabled=true;
+    document.getElementById("ins").style.color="gray";
+    } else {
+    document.getElementById("ins").disabled=false;
+    document.getElementById("ins").style.color="black";
+    }
+    }
+    function enable () {
+    var select0 = document.getElementById('club');
+    document.getElementById("addyouth").disabled=false;
+    document.getElementById("addyouth").style.color="black";
+    }
+    function uncheck_boxes() {
+    document.getElementById("accept1").checked = false;
+    document.getElementById("accept2").checked = false;
+    document.getElementById("accept3").checked = false;
+    }
+    EnableSubmit = function(val)
+    {
+    var accepted1 = document.getElementById("accept1");
+    var accepted2 = document.getElementById("accept2");
+    var accepted3 = document.getElementById("accept3");
+    var submit = document.getElementById("sbmt");
+
+    if (accepted1.checked == true && accepted2.checked == true && accepted3.checked == true )
+    {
+    submit.disabled = false;
+    submit.style.color="black";
+    }
+    else
+    {
+    submit.disabled = true;
+    submit.style.color="gray";
+
+    }
+    }
+
+    </script>
+    <script language="javascript" type="text/javascript">
+    <!--
+            function popitup(url) {
+                newwindow=window.open(url,'name','height=200,width=150');
+                if (window.focus) {newwindow.focus()}
+                return false;
+            }
+
+    // -->
+    </script>
 
 </head>
 
@@ -42,7 +136,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -163,8 +257,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Full Width Page
-                    <small>Subheading</small>
+                <h1 class="page-header">Programs & Club Registration
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
@@ -175,13 +268,7 @@
         </div>
         <!-- /.row -->
 
-        <div class="contaligncenter ">
-            </p>
 
-            <p align="center">
-                <font face="Arial" size="6">Burnaby Canoe and Kayak Club&nbsp;&nbsp;
-                    Programs &amp; Club Registration</font></p>
-        </div>
         <div class="contaligncenter ">
 
             Currently, Burnaby Canoe and Kayak Club offers various types of club
@@ -330,7 +417,8 @@
                     <td align="center"><font size="2">$250</font></td>
                 </tr>
             </table>
-
+            <br />
+            <br />
             <p><font style="letter-spacing: normal; font-weight: 700" color="red" face="sans-serif" size="3">NOTE: In 2015 You MUST have club membership to join the following programs: <br/>
                 - Beginner Racing Program <br/>
                 - Youth Performance Racing Program<br/>
