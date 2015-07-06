@@ -335,7 +335,7 @@
                 - Beginner Racing Program <br/>
                 - Youth Performance Racing Program<br/>
                 - Masters Racing Program<br/>
-            </p></font>
+            </font></p>
 
 
             <p><span style="letter-spacing: normal">
@@ -475,7 +475,7 @@ note that promo codes need to be typed as shown and are validated at checkout.</
                 <input id="sbmt" type="submit" value="Go to checkout" disabled="true" style="color: gray">
 
             </form>
-            <script lang='text/javascript' >
+            <script lang='text/javascript' src="//code.jquery.com/jquery-1.11.1.min.js">
 
                 jQuery(function($) {
 
@@ -483,8 +483,8 @@ note that promo codes need to be typed as shown and are validated at checkout.</
                         'Will Not Join a Program': ['No Program Packages'],
                         'Masters Program': ['Masters Racing Package'],
                         'Beginner Sprint': ['Unlimited Practice Package','30 Practices Package','20 Practices Package'],
-                        'Performance Sprint': ['Unlimited Practice Package','30 Practices Package','20 Practices Package'],
-                    }
+                        'Performance Sprint': ['Unlimited Practice Package','30 Practices Package','20 Practices Package']
+                    };
 
                     var $programs = $('#ppackage');
                     $('#regprogram').change(function () {
@@ -500,12 +500,12 @@ note that promo codes need to be typed as shown and are validated at checkout.</
                 jQuery(function($) {
                     $("#regprogram").change(function () {
                         //alert($('#ppackage :selected').text()  );
-                        var progfee=$('#ppackage :selected').text()
+                        var progfee=$('#ppackage :selected').text();
                         udpateProgFee(progfee);
                     });
                     $("#ppackage").change(function () {
                         //alert($('#ppackage :selected').text()  );
-                        var progfee=$('#ppackage :selected').text()
+                        var progfee=$('#ppackage :selected').text();
                         udpateProgFee(progfee);
                     });
 
@@ -661,7 +661,7 @@ note that promo codes need to be typed as shown and are validated at checkout.</
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+</div>
 </body>
 
 </html>
