@@ -164,39 +164,28 @@
             <!-- Other Programs box -->
             <div class="well">
                 <h4>Other Programs</h4>
-                <div class="row">
-                    <div class="col-lg-6">
                         <ul class="list-unstyled">
-                            <li><a href="#">Category Name</a>
+                            <li><b>CanoeKids/CanoeKids+ Camp</b></a>
                             </li>
-                            <li><a href="#">Category Name</a>
+                            <li><a href="#">BC Cup Program</a>
                             </li>
-                            <li><a href="#">Category Name</a>
+                            <li><a href="#">Youth Sprint Racing Program</a>
                             </li>
-                            <li><a href="#">Category Name</a>
+                            <li><a href="#">Beginner Adults Paddling (16+)</a>
                             </li>
+                            <li><a href="#">Masters Racing Program (16+)</a></li>
+                            <hr>
+                            <li><a href="#">School Dragonboat Program</a></li>
+                            <li><a href="#">Adult Dragonboat Program</a></li>
+                            <li><a href="#">Women's Dragonboat Program</a> </li>
                         </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled">
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                            <li><a href="#">Category Name</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <!-- /.row -->
             </div>
 
             <!-- Side Widget Well -->
             <div class="well">
-                <h4>Side Widget Well</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                <h4>TL;DR</h4>
+                <p>A week or 3 weeks long day camp experience focused on all aspects of safe paddle sports</p>
             </div>
 
         </div>
