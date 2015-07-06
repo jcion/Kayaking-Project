@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="active">
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Full Width Page
+                    <small>Subheading</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Full Width Page</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="contaligncenter ">
+            </p>
+
+            <p align="center">
+                <font face="Arial" size="6">Burnaby Canoe and Kayak Club&nbsp;&nbsp;
+                    Programs &amp; Club Registration</font></p>
+        </div>
+        <div class="contaligncenter ">
+
+            Currently, Burnaby Canoe and Kayak Club offers various types of club
+            memberships.
+
+            The following options are offered in 2015:<p>&nbsp;</p>
+            <table border="1" width="100%">
+                <tr>
+                    <td align="center"><b>Club Membership</b></td>
+                    <td align="center"><b>Suitable For</b></td>
+                    <td align="center" width="44"><b>Fee</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Single Adult Membership</font></td>
+                    <td align="center"><font size="2">One adult member</font></td>
+                    <td align="center" width="44"><font size="2">$225</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Single Junior Membership</font></td>
+                    <td align="center"><font size="2">One junior member</font></td>
+                    <td align="center" width="44"><font size="2">$160</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Club membership - Family Rate</font></td>
+                    <td align="center"><font size="2">2 adult members and 2 junior
+                        members</font></td>
+                    <td align="center" width="44"><font size="2">$320</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Additional Youth Fee</font></td>
+                    <td align="center"><font size="2">For families with more than 2 kids</font></td>
+                    <td align="center" width="44"><font size="2">$40</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Associate Membership</font></td>
+                    <td align="center"><font size="2">Those with a full membership at
+                        another CKC club</font></td>
+                    <td align="center" width="44"><font size="2">$100</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Officials Rate</font></td>
+                    <td align="center"><font size="2">Adults members who officiate at
+                        CKBC/BCKC regattas</font></td>
+                    <td align="center" width="44"><font size="2">$75</font></td>
+                </tr>
+            </table>
+            <p>&nbsp;</p>
+            <table border="1" width="100%">
+                <tr>
+                    <td align="center"><b>CKBC Member Services Fee</b></td>
+                    <td align="center"><b>Suitable For</b></td>
+                    <td align="center" width="44"><b>Fee</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Youth Under 13 Competitive</font></td>
+                    <td align="center"><font size="2">Youth under 13 years of age who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$20</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Youth 13-15 Competitive</font></td>
+                    <td align="center"><font size="2">Youth 13-15 years of age who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$30</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Youth 15-17 Competitive</font></td>
+                    <td align="center"><font size="2">Youth 15-17 years of age who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$70</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Youth 17-19 Competitive</font></td>
+                    <td align="center"><font size="2">Youth 17-19 years of age who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$70</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Individuals 19-25 Competitive</font></td>
+                    <td align="center"><font size="2">Individuals 19-25 years of age who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$70</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Adults 25+ Competitive</font></td>
+                    <td align="center"><font size="2">Adults 25+ who want to compete in regattas</font></td>
+                    <td align="center"><font size="2">$45</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Youth and Adults Non-Competitive</font></td>
+                    <td align="center"><font size="2">Anybody who does not want to compete</font></td>
+                    <td align="center"><font size="2">$9</font></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Officials/Volunteers</font></td>
+                    <td align="center"><font size="2">Anybody who does not want to take part in BCKC regular programs,
+                        or compete, and officiates or volunteers</font></td>
+                    <td align="center"><font size="2">$7</font></td>
+                </tr>
+            </table>
+            <p>&nbsp;</p>
+            <table border="1" width="100%">
+                <tr>
+                    <td align="center"><b>Other Fees</b></td>
+                    <td align="center"><b>Suitable For</b></td>
+                    <td align="center" width="44"><b>Fee</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><font size="2">Boat Storage</font></td>
+                    <td align="center"><font size="2">If you are storing boats in the
+                        club. You will need a full club membership to purchase boat storage</font></td>
+                    <td align="center" width="44"><font size="2">$75</font></td>
+                </tr>
+            </table>
+            <p>&nbsp;</p>
+
+            <table border="1" width="100%">
+                <tr>
+                    <td align="center" width="252"><b>Program </b></td>
+                    <td align="center"><b>Options</b></td>
+                    <td align="center" width="44"><b>Club Membership Required?</b></td>
+                    <td align="center" width="44"><b>Fees</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="4" width="296"><a href="youthracing.htm">Youth Beginner Racing Program</a> <br/>
+                        <a href="youthracing.htm">Youth Performance Racing Program</a></td>
+                    <td width="296" align="left"><font size="2">Unlimited Practices
+                        throughout the Summer season</font></td>
+                    <td align="center" width="44">Yes</td>
+                    <td align="center"><font size="2">$250</font></td>
+                </tr>
+                <tr>
+
+                </tr>
+                <tr>
+                    <td width="296" align="left"><font size="2">30 Practices throughout
+                        the Summer season</font></td>
+                    <td align="center" width="44">Yes</td>
+                    <td align="center"><font size="2">$200</font></td>
+                </tr>
+                <tr>
+                    <td width="296" align="left"><font size="2">20 Practices throughout
+                        the Summer season</font></td>
+                    <td align="center" width="44">Yes</td>
+                    <td align="center"><font size="2">$150</font></td>
+                </tr>
+                <tr>
+                    <td width="296"><a href="masterspaddle.htm">Masters Racing Program</a></td>
+                    <td align="left"><font size="2">Masters Racing Package</font></td>
+                    <td align="center" width="44">Yes</td>
+                    <td align="center"><font size="2">$250</font></td>
+                </tr>
+            </table>
+
+            <p><font style="letter-spacing: normal; font-weight: 700" color="red" face="sans-serif" size="3">NOTE: In 2015 You MUST have club membership to join the following programs: <br/>
+                - Beginner Racing Program <br/>
+                - Youth Performance Racing Program<br/>
+                - Masters Racing Program<br/>
+            </p></font>
+
+
+            <p><span style="letter-spacing: normal">
+<font style="letter-spacing: normal; font-weight: 700" color="#333333" face="sans-serif" size="2">
+    To Register For an Individual Adult/Junior:</font></span></p>
+            <p><font face="sans-serif" color="#333333">
+<span style="font-size: 13px; letter-spacing: normal">- To register for an
+individual adult or junior member, choose the club membership from the drop down
+menu below.&nbsp;<br style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+- You'll need insurance to join the club. To choose the insurance that fits your
+goals use the &quot;Choose Member Services&quot; drop down menu. If you do not wish to compete,
+simply select &quot;Non-Competitive&quot;<br>
+</span></font><span style="font-size: 13px; letter-spacing: normal">
+<font face="sans-serif" color="#333333">- Need to store your boat at the club?
+    Select yes or no in this step.<br>
+</font></span><font face="sans-serif" color="#333333">
+<span style="font-size: 13px; letter-spacing: normal">- If you would like to
+join a program, choose the type of program from the program drop down menu, and
+then select an appropriate practice package. If you don't want to join a
+program, just select &quot;Will not join a program&quot;.<br style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 19.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+- Have a promo code? Enter it in the box labelled &quot;Promo Code&quot;.&nbsp; Please
+note that promo codes need to be typed as shown and are validated at checkout.</span></font></p>
+            <p><b><font color="#333333" face="sans-serif" size="2">
+                <span style="letter-spacing: normal">To Register For a Family</span></font></b></p>
+            <p><a onclick="window.open('famreg.htm', '_blank', 'location=yes,height=500,width=450,scrollbars=yes,status=yes');">
+                <font face="sans-serif">
+                    <span style="font-size: 13px; letter-spacing: normal">To register a family click here</span></font></a><br/></p>
+
+            <p><b><font color="#333333" face="sans-serif" size="2">
+                <span style="letter-spacing: normal">To Purchase a Boat Storage<br/></span>
+            </font></b><br/> <font face="sans-serif" color="#333333">
+	<span style="font-size: 13px; letter-spacing: normal">Only club members can purchase boat storage.
+	<br/> To purchase boat storage:
+	<br/> - Select club membership type
+	<br/> - Choose your CKBC member services type
+	<br/> - Select yes in Boat storage drop down menu</span></font><br/></p>
+
+            <!-- THE REGISTRATION HELP INFO GOES HERE - END -->
+
+            <p>Please use the form below to help you choose the package that suits your
+                needs the most:</p>
+
+            <form name="BCKC" action="checkout.php" method="post" onsubmit="return validateForm()" >
+                <p><select name="clubfee" id="club">
+                    <option value="choose">Choose a club membership type</option>
+                    <option value="aind">Individual (Adult)</option>
+                    <option value="yind">Individual (Youth)</option>
+                    <option value="fam">Family Rate (Up to 2 adults and 2 Youth)</option>
+                    <option value="off">Officials Rate</option>
+                    <option value="asso">Associate Membership</option>
+                    <option value="choose">------------------</option>
+                    <option value="paid">Already Paid the 2015 Junior Club membership</option>
+                    <option value="apaid">Already Paid the 2015 Adult Club membership</option>
+                    <option value="fpaid">Already Paid 2015 *Family* Club membership</option>
+
+                </select>
+
+                <p><select name="addyouth" id="addyouth">
+                    <option value="choose">Family Rate for more than 2 Youth</option>
+                    <option value="zero">Not Applicable</option>
+                    <option value="two">3 youth in the family</option>
+                    <option value="three">4 youth in the family</option>
+                </select>
+                    <a onclick="window.open('famreg.htm', '_blank', 'location=yes,height=500,width=450,scrollbars=yes,status=yes');">READ: How to register a family</a>
+
+                </p>
+
+                </p>
+                <p><select name="insure" id="ins">
+                    <option value="choose">Choose CKBC Member Services Type</option>
+                    <option value="alreadypaid">Already Paid 2015 Fee</option>
+                    <option value="officialins">Officials</option>
+                    <option value="u13insnoncomp">Youth under 13 Competitive</option>
+                    <option value="u15insnoncomp">Youth between 13-15 Competitive</option>
+                    <option value="u17insnoncomp">Youth between 15-17 Competitive</option>
+                    <option value="u19insnoncomp">Youth between 17-19 Competitive</option>
+                    <option value="u25insnoncomp">Kids between 19-25 Competitive</option>
+                    <option value="mastinscomp">Adults 25+ Competitive</option>
+                    <option value="insnoncomp">Non-Competitive</option>
+                    <option value="assoins">Associate Members Insurance</option>
+                </select>
+                </p>
+                <p><select name="boatstorage" id="boat">
+                    <option value="choose">Do you need boat storage?</option>
+                    <option value="yboats">Yes</option>
+                    <option value="nboats">No</option>
+                </select>
+                </p>
+
+                <select id="regprogram" name="regprogram">
+                    <option value="choose">Select a Program</option>
+                    <option>Will Not Join a Program</option>
+                    <option>Masters Program</option>
+                    <option>Beginner Sprint</option>
+                    <option>Performance Sprint</option>
+                </select>
+                <select id="ppackage" name="ppackage" placeholder="choose"></select>
+                <!--
+                    <select name="regprogram" id="pkg">
+                        <option value="choose">Choose a Program</option>
+                        <option value="masterspaddle">Masters Paddling Program</option>
+                        <option value="masterspaddle">Youth Beginner Racing Program</option>
+                        <option value="masterspaddle">Youth Performance Racing Program</option>
+                    </select>
+
+                    <select name="ppackage" id="pkg">
+                        <option value="choose">Choose a Practice Package</option>
+                        <option value="masterspaddle">Masters Paddling Program</option>
+                        <option value="pkgunl">Youth Programs Only - Unlimited Practices</option>
+                        <option value="pkg40">Youth Programs Only - 40 Practices</option>
+                        <option value="pkg30">Youth Programs Only - 30 Practices</option>
+                        <option value="pkg20">Youth Programs Only - 20 Practices</option>
+                    </select>
+                    -->
+                <p><br/></p>
+                <p>Enter your Promo Code (if applicable):
+                    <br/>Note: Promo Code will be verified in the Shopping Cart!<br/>
+                    <input type="text" id="promo" name="promo"></p>
+
+                <b></b>Your total payment: </b>
+                <label id="fee">$0</label>
+
+                <br/><br/>
+                <tr>
+                    <td width="30%">To register you must agree to club rules and policies, codes of conduct, and accept CKBC waiver: <br/></td>
+                </tr>
+                <tr>
+                    <td width="10px" style="min-width: 10px"></td>
+                    <td width="70%">
+                        <p><input type="checkbox" id="accept1" name="BCKCCP" value="Accept" onClick="EnableSubmit(this)"> <a href="https://drive.google.com/open?id=0B1Grihav8LaXWm1KTm9IVndoQzA&authuser=0" target="_blank">I have read, understood and I accept BCKC Club Policies.</a></p>
+                        <p><input type="checkbox" id="accept2" name="COC" value="Accept" onClick="EnableSubmit(this)"> <a href="https://drive.google.com/file/d/0B1Grihav8LaXN0M4cnVrN1gzeDg/view?usp=sharing" target="_blank">I have read, understood and I accept Athlete/Parent codes of Conduct.</a></p>
+                        <p><input type="checkbox" id="accept3" name="CKBCIW" value="Accept" onClick="EnableSubmit(this)"> <a href="https://drive.google.com/file/d/0B1Grihav8LaXOHJhVWNNZUxncE0/view?usp=sharing" target="_blank">I have read, understood and I accept CKBC Waiver.</a></p>
+
+                    </td>
+                </tr>
+                <br/><br/>
+                <input id="sbmt" type="submit" value="Go to checkout" disabled="true" style="color: gray">
+
+            </form>
+            <script lang='text/javascript' >
+
+                jQuery(function($) {
+
+                    var programs = {
+                        'Will Not Join a Program': ['No Program Packages'],
+                        'Masters Program': ['Masters Racing Package'],
+                        'Beginner Sprint': ['Unlimited Practice Package','30 Practices Package','20 Practices Package'],
+                        'Performance Sprint': ['Unlimited Practice Package','30 Practices Package','20 Practices Package'],
+                    }
+
+                    var $programs = $('#ppackage');
+                    $('#regprogram').change(function () {
+                        var regprogram = $(this).val(), lcns = programs[regprogram] || [];
+
+                        var html = $.map(lcns, function(lcn){
+                            return '<option value="' + lcn + '">' + lcn + '</option>'
+                        }).join('');
+                        $programs.html(html)
+                    });
+                });
+
+                jQuery(function($) {
+                    $("#regprogram").change(function () {
+                        //alert($('#ppackage :selected').text()  );
+                        var progfee=$('#ppackage :selected').text()
+                        udpateProgFee(progfee);
+                    });
+                    $("#ppackage").change(function () {
+                        //alert($('#ppackage :selected').text()  );
+                        var progfee=$('#ppackage :selected').text()
+                        udpateProgFee(progfee);
+                    });
+
+                });
+                var select0 = document.getElementById('club');
+                var select1 = document.getElementById('boat');
+                var select2 = document.getElementById('ins');
+                var select3 = document.getElementById('addyouth');
+                var select4 = document.getElementById('promo');
+                var select5 = document.getElementById('ppackage');
+
+
+                var clubfee=0;
+                var insfee=0;
+                var addchild=0;
+                var promo=0;
+                var boatstorage=0;
+                var progfee=0;
+
+                select0.onchange = function() {
+                    if ( select0.value == "aind" ) {
+                        clubfee = 225;
+                    } else if ( select0.value == "yind" ) {
+                        clubfee = 160;
+                    } else if ( select0.value == "fam" ) {
+                        clubfee = 320;
+                    } else if ( select0.value == "off" ) {
+                        clubfee = 75;
+                    } else if ( select0.value == "asso" ) {
+                        clubfee = 100;
+                    } else {
+                        clubfee = 0;
+                        alert ("Have you purchased a valid 2015 club membership already? Please note: You MUST purchase club membership to register for Beginner, Junior and masters racing programs!");
+                    }
+
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+                select1.onchange = function() {
+                    if ( select1.value == "yboats" ) {
+                        boatstorage= 75;
+                    } else if ( select1.value == "nboats" ) {
+                        boatstorage= 0;
+                    }
+
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+                select2.onchange = function() {
+                    if ( select2.value == "u13insnoncomp" ) {
+                        insfee = 20;
+                    } else if ( select2.value == "u15insnoncomp" ) {
+                        insfee = 30;
+                    } else if ( select2.value == "u17insnoncomp" ) {
+                        insfee = 70;
+                    } else if ( select2.value == "u19insnoncomp" ) {
+                        insfee = 70;
+                    } else if ( select2.value == "u25insnoncomp" ) {
+                        insfee = 70;
+                    } else if ( select2.value == "mastinscomp" ) {
+                        insfee = 45;
+                    } else if ( select2.value == "insnoncomp" ) {
+                        insfee = 9;
+                    } else if ( select2.value == "assoins" ) {
+                        insfee = 0;
+                    }
+
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+
+                select3.onchange = function() {
+                    if ( select3.value == "zero" ) {
+                        addchild = 0;
+                    } else if ( select3.value == "two" ) {
+                        addchild = 40;
+                    } else if ( select3.value == "three" ) {
+                        addchild = 80;
+                    }
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+
+                select4.onchange = function() {
+                    if ( select4.value == "zero" ) {
+                        promo = 0;
+                    } else if ( select4.value == "two" ) {
+                        promo = 40;
+                    } else if ( select4.value == "three" ) {
+                        promo = 80;
+                    }
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+
+                function udpateProgFee(prog) {
+
+                    if ( prog == "No Program Packages" ) {
+                        progfee = 0;
+                    } else if ( prog == "Unlimited Practice Package" ) {
+                        progfee = 250;
+                        if ( document.getElementById('club').value == "paid" ||
+                                document.getElementById('club').value == "apaid" ||
+                                document.getElementById('club').value == "fpaid") {
+                            alert ("You MUST purchase a club membership to join this program. If you have not purchased one in 2015 please choose a proper club membership to join this program.");
+                        }
+                    } else if ( prog == "30 Practices Package" ) {
+                        progfee = 200;
+                        if ( document.getElementById('club').value == "paid" ||
+                                document.getElementById('club').value == "apaid" ||
+                                document.getElementById('club').value == "fpaid") {
+                            alert ("You MUST purchase a valid 2015 club membership to join this program. If you have not purchased one in 2015 please choose a proper club membership to join this program.");
+                        }
+                    } else if ( prog == "20 Practices Package" ) {
+                        progfee = 150;
+                        if ( document.getElementById('club').value == "paid" ||
+                                document.getElementById('club').value == "apaid" ||
+                                document.getElementById('club').value == "fpaid") {
+                            alert ("You MUST purchase a valid 2015 club membership to join this program. If you have not purchased one in 2015 please choose a proper club membership to join this program.");
+                        }
+                    } else if ( prog == "20 Practices Package" ) {
+                        progfee = 150;
+                        if ( document.getElementById('club').value == "paid" ||
+                                document.getElementById('club').value == "apaid" ||
+                                document.getElementById('club').value == "fpaid") {
+                            alert ("You MUST purchase a valid 2015 club membership to join this program. If you have not purchased one in 2015 please choose a proper club membership to join this program.");
+                        }
+                    } else if ( prog == "Masters Racing Package" ) {
+                        progfee = 250;
+                        if ( document.getElementById('club').value == "paid" ||
+                                document.getElementById('club').value == "apaid" ||
+                                document.getElementById('club').value == "fpaid") {
+                            alert ("You MUST purchase a valid 2015 club membership to join this program. If you have not purchased one in 2015 please choose a proper club membership to join this program.");
+                        }
+                    }
+
+                    document.getElementById('fee').innerHTML = "$" + (boatstorage+addchild+clubfee+progfee+insfee-promo);
+                };
+
+            </script>
+
+            <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
